@@ -1,0 +1,16 @@
+{
+	"binaryFormat":true,
+	"codeGeneration":{
+		"classNamePrefix":"",
+		"codePath":"",
+		"codeType":"",
+		"getMemberByName":false,
+		"ignoreNoname":true,
+		"memberNamePrefix":"",
+		"packageName":""
+	},
+	"compressDesc":true,
+	"fileExtension":"fui",
+	"packageCount":2,
+	"path":"D:\\3DInventory_Laya\\bin\\res"
+}
