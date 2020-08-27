@@ -14,12 +14,13 @@ module.exports = {
             title: 'FairyGUI-3DInventory-demo',
             template: path.resolve(__dirname, 'template.html')
         }),
-        new CopyWebpackPlugin([
+        new CopyWebpackPlugin({
+            patterns: [
             {
               from:path.resolve(__dirname, 'assets'),
               to:path.resolve(__dirname, 'build/assets')
-            }
-          ])
+            }]
+        })
     ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
